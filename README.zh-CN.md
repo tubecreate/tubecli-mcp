@@ -5,7 +5,7 @@
 <h1 align="center">TubeCLI MCP 连接器</h1>
 
 <p align="center">
-  通过 <b>cloud.tubecreate.com</b>，把 Claude、Gemini、Grok、Muse 等 AI 应用连接到你的 TubeCLI 服务器。
+  通过 <b>cloud.tubecreate.com</b>，把 Claude、Gemini、Grok、Muse AI 等 AI 应用连接到你的 TubeCLI 服务器。
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ TubeCLI 是一套自托管的自动化系统，专为**从头到尾自动制作�
 
 1. **脚本。** AI 调研选题并撰写脚本。
 2. **配音。** 用 AI 语音把脚本朗读出来。
-3. **图片和视频。** 用 AI 图片和 AI 短视频片段为每个场景配画面。
+3. **图片和视频。** 用 AI 图片和 AI 短视频片段为每个场景配画面（例如使用 Muse AI）。
 4. **剪辑。** 加上字幕、版式和音乐，渲染出成片。
 5. **缩略图和 SEO。** 自动生成并检查缩略图、标题、简介和标签。
 6. **发布。** 把视频上传到 YouTube 等平台，也可以按计划定时发布。
@@ -84,12 +84,12 @@ claude mcp add --transport http tubecli https://cloud.tubecreate.com/mcp
 
 如果 Gemini 仍然显示之前的错误，点击 **Cancel**，再重新打开 **+ Custom**。
 
-### Muse（Meta）
+### Muse AI ([muse.ai](https://muse.ai), Meta)
 
-1. 在 Muse 中添加一个自定义连接器，地址填 `https://cloud.tubecreate.com/mcp`。
+1. 在 Muse AI 中添加一个自定义连接器，地址填 `https://cloud.tubecreate.com/mcp`。
 2. 点击 **Connect**，登录 TubeCLI Cloud，选择服务器后点击 **允许**。
 
-如果 Muse 显示 *Missing required parameters*（缺少必需参数），请删除这个连接器后重新添加。Muse 有时会
+如果 Muse AI 显示 *Missing required parameters*（缺少必需参数），请删除这个连接器后重新添加。Muse AI 有时会
 沿用旧的会话。
 
 ### Grok

@@ -5,7 +5,7 @@
 <h1 align="center">TubeCLI MCP コネクタ</h1>
 
 <p align="center">
-  Claude、Gemini、Grok、Muse などの AI アプリを、<b>cloud.tubecreate.com</b> 経由であなたの TubeCLI サーバーにつなげます。
+  Claude、Gemini、Grok、Muse AI などの AI アプリを、<b>cloud.tubecreate.com</b> 経由であなたの TubeCLI サーバーにつなげます。
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ TubeCLI は、**動画づくりを最初から最後まで自動化する**た�
 
 1. **台本。** AI がテーマを調べて台本を書きます。
 2. **音声。** 台本を AI の声で読み上げます。
-3. **画像と動画。** 各シーンを AI 画像と短い AI 動画クリップで描きます。
+3. **画像と動画。** 各シーンを AI 画像と短い AI 動画クリップで描きます（例：Muse AI）。
 4. **編集。** 字幕、レイアウト、音楽を加えて、完成した動画を書き出します。
 5. **サムネイルと SEO。** サムネイル、タイトル、説明文、タグを作成してチェックします。
 6. **公開。** 動画を YouTube などのプラットフォームにアップロードします。予約投稿もできます。
@@ -84,13 +84,13 @@ claude mcp add --transport http tubecli https://cloud.tubecreate.com/mcp
 
 Gemini に古いエラーが表示されたままの場合は、**Cancel** を押してから、もう一度 **+ Custom** を開いてください。
 
-### Muse（Meta）
+### Muse AI ([muse.ai](https://muse.ai), Meta)
 
-1. Muse で、URL `https://cloud.tubecreate.com/mcp` のカスタムコネクタを追加します。
+1. Muse AI で、URL `https://cloud.tubecreate.com/mcp` のカスタムコネクタを追加します。
 2. **Connect** を押して TubeCLI Cloud にサインインし、サーバーを選んで**許可**を押します。
 
-Muse に *Missing required parameters*（必須パラメーターが不足しています）と表示された場合は、コネクタを削除して追加し直してください。
-Muse は古いセッションを使い回すことがあります。
+Muse AI に *Missing required parameters*（必須パラメーターが不足しています）と表示された場合は、コネクタを削除して追加し直してください。
+Muse AI は古いセッションを使い回すことがあります。
 
 ### Grok
 

@@ -5,7 +5,7 @@
 <h1 align="center">TubeCLI MCP Bağlayıcısı</h1>
 
 <p align="center">
-  Claude, Gemini, Grok, Muse ve diğer AI uygulamalarını <b>cloud.tubecreate.com</b> üzerinden TubeCLI sunucularınıza bağlayın.
+  Claude, Gemini, Grok, Muse AI ve diğer AI uygulamalarını <b>cloud.tubecreate.com</b> üzerinden TubeCLI sunucularınıza bağlayın.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ TubeCLI, kendi sunucunuzda çalıştırdığınız ve **A'dan Z'ye otomatik vide
 
 1. **Senaryo.** AI konuyu araştırır ve senaryoyu yazar.
 2. **Seslendirme.** Senaryo AI sesleriyle seslendirilir.
-3. **Görseller ve video.** Sahneler AI görselleri ve kısa AI video klipleriyle canlandırılır.
+3. **Görseller ve video.** Sahneler AI görselleri ve kısa AI video klipleriyle canlandırılır, örneğin Muse AI ile.
 4. **Kurgu.** Altyazı, yerleşim ve müzik eklenir, ardından son video oluşturulur.
 5. **Küçük resim ve SEO.** Küçük resim, başlık, açıklama ve etiketler hazırlanır ve kontrol edilir.
 6. **Yayınlama.** Video YouTube'a ve diğer platformlara yüklenir; isterseniz zamanlanmış olarak.
@@ -85,12 +85,12 @@ Ardından Claude Code içinde `/mcp` komutunu çalıştırın ve giriş yapmak i
 
 Gemini hâlâ eski bir hata gösteriyorsa **Cancel** düğmesine basın ve **+ Custom** seçeneğini yeniden açın.
 
-### Muse (Meta)
+### Muse AI ([muse.ai](https://muse.ai), Meta)
 
-1. Muse'da `https://cloud.tubecreate.com/mcp` adresiyle özel bir bağlayıcı ekleyin.
+1. Muse AI'da `https://cloud.tubecreate.com/mcp` adresiyle özel bir bağlayıcı ekleyin.
 2. **Connect** düğmesine basın, TubeCLI Cloud'a giriş yapın, sunucuları seçin ve **İzin ver** düğmesine basın.
 
-Muse *Missing required parameters* hatası gösterirse bağlayıcıyı silip yeniden ekleyin. Muse bazen eski bir oturumu
+Muse AI *Missing required parameters* hatası gösterirse bağlayıcıyı silip yeniden ekleyin. Muse AI bazen eski bir oturumu
 yeniden kullanır.
 
 ### Grok

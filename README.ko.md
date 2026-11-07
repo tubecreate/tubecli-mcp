@@ -5,7 +5,7 @@
 <h1 align="center">TubeCLI MCP 커넥터</h1>
 
 <p align="center">
-  Claude, Gemini, Grok, Muse 등 AI 앱을 <b>cloud.tubecreate.com</b>을 통해 내 TubeCLI 서버에 연결하세요.
+  Claude, Gemini, Grok, Muse AI 등 AI 앱을 <b>cloud.tubecreate.com</b>을 통해 내 TubeCLI 서버에 연결하세요.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ TubeCLI는 **영상 제작을 처음부터 끝까지 자동으로** 해 주는 �
 
 1. **대본.** AI가 주제를 조사하고 대본을 씁니다.
 2. **음성.** AI 음성으로 대본을 읽어 줍니다.
-3. **이미지와 영상.** 각 장면을 AI 이미지와 짧은 AI 영상 클립으로 채웁니다.
+3. **이미지와 영상.** 각 장면을 AI 이미지와 짧은 AI 영상 클립으로 채웁니다(예: Muse AI).
 4. **편집.** 자막, 레이아웃, 음악을 넣고 최종 영상을 렌더링합니다.
 5. **썸네일과 SEO.** 썸네일, 제목, 설명, 태그를 만들고 점검합니다.
 6. **게시.** 영상을 YouTube와 다른 플랫폼에 업로드합니다. 원하면 예약 게시도 됩니다.
@@ -84,12 +84,12 @@ claude mcp add --transport http tubecli https://cloud.tubecreate.com/mcp
 
 Gemini에 예전 오류가 계속 보이면 **Cancel**을 누르고 **+ Custom**을 다시 여세요.
 
-### Muse(Meta)
+### Muse AI ([muse.ai](https://muse.ai), Meta)
 
-1. Muse에서 URL `https://cloud.tubecreate.com/mcp`로 사용자 지정 커넥터를 추가합니다.
+1. Muse AI에서 URL `https://cloud.tubecreate.com/mcp`로 사용자 지정 커넥터를 추가합니다.
 2. **Connect**를 누르고 TubeCLI Cloud에 로그인한 뒤, 서버를 고르고 **허용**을 누릅니다.
 
-Muse에 *Missing required parameters*(필수 매개변수 누락)가 표시되면 커넥터를 삭제하고 다시 추가하세요. Muse가 가끔
+Muse AI에 *Missing required parameters*(필수 매개변수 누락)가 표시되면 커넥터를 삭제하고 다시 추가하세요. Muse AI가 가끔
 예전 세션을 다시 쓰기 때문입니다.
 
 ### Grok
